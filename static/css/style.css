@@ -1,0 +1,124 @@
+/* -----------------------------------
+   Global Styling
+----------------------------------- */
+body {
+  background-color: #f6fff6;
+  font-family: "Poppins", sans-serif;
+}
+
+h5, h6 {
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* -----------------------------------
+   Upload Section
+----------------------------------- */
+#uploadForm input[type="file"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#submitBtn {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+/* Spinner Box */
+#spinnerBox p {
+  font-size: 14px;
+  color: #2d7a2d;
+}
+
+/* Results Box */
+#resultBox img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.list-group-item {
+  border: none;
+  border-left: 4px solid #28a745;
+  margin-bottom: 6px;
+  padding: 10px 12px;
+}
+
+/* -----------------------------------
+   Footer
+----------------------------------- */
+footer small {
+  color: #7a7a7a;
+}
+
+/* -----------------------------------
+   Responsive Design
+----------------------------------- */
+
+/* For tablets */
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .card-body {
+    padding: 1.2rem;
+  }
+}
+
+/* For phones (main responsiveness) */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  #resultBox .row .col-6 {
+    margin-bottom: 15px;
+  }
+
+  #submitBtn {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  .list-group-item {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  #submitBtn {
+    font-size: 14px;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+}

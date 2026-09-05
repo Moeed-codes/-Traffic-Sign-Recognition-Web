@@ -1,0 +1,53 @@
+# Sensitive Credentials
+.env
+keys.json
+secrets.py
+
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Datasets
+New Plant Diseases Dataset(Augmented)/
+
+# Archives
+*.rar
+*.zip
+*.tar.gz
+
+# Proposals and Docs
+*.pdf
+*.docx
+
+# Uploaded content
+static/uploads/
+!static/uploads/.gitkeep
+
+# Grad-CAM output (generated at runtime)
+static/gradcam_output/
+
+# Error logs
+*.log
+viz_error.log
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (if using .keras format)
+*.keras
